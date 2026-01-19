@@ -141,6 +141,73 @@ header{
   background-color: #230E3D;
   padding: 120px 200px;
 }
+.grid{
+  display: grid;
+  grid-template-columns: (3, 3fr);
+  gap: 30px;
+}
+/*-------------------------------*/
+.features{
+  padding: 120px 200px;
+  background-color: #1A0B2E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+.episode{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.episode h2{
+  font-size: 48px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.video-tha{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 30px;
+}
+.box{
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.194);
+  background-color: #230E3D;
+  border-radius: 10px;
+}
+.box h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.box .p1{
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+.box .p2{
+  color: #00FF88;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 6px;
+  font-weight: 600;
+}
+.meet{
+  font-size: 3rem;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.alex{
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
 /* Footer */
 footer{
   background: url("./B13-A02-TechWave/assets/footer-bg.png");
