@@ -29,12 +29,17 @@ body{
   -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent;
 }
+/*
+hr {
+  height: 1px;
+  background-color: #d3d3d3; /* ash color */
+
 
 /* Header */
 header{
   margin: 0 auto;
   padding: 16px 200px;
-  background-color: #412567;
+  background-color: #1A0B2E;
 }
 .container{
   display: flex;
@@ -67,9 +72,10 @@ header{
   margin-bottom: 24px;
 }
 
-/* Hero */ /*
+/* Hero */
 .hero{
   background: url("./B13-A02-TechWave/assets/hero-bg.png");
+  background-color: #230E3D;
   background-repeat: no-repeat;
   width: auto;
   height: 760px;
@@ -77,9 +83,65 @@ header{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 101px 525px 101px 525px;
+  gap: 40px;
 }
-
-/* Footer */ /*
+.hero-circle{/*
+  margin-top: 50px;*/
+}
+/*--------------------------------------*/
+.podcast{
+  padding: 50px 200px 120px 200px;
+  background-color: #1A0B2E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.technology{
+  font-size: 1rem;
+  color: #FFFFFF;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+.your{
+  width: 670px;
+}
+.monthly-listener{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 80px;
+}
+.monthly-listener h2{
+  color: #00FF88;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+.monthly-listener p{
+  color: #FFFFFF;
+  font-size: 1rem;
+  text-align: center;
+}
+/*------------------------------------------*/
+.choose{
+  background-color: #230E3D;
+  padding: 120px 200px;
+}
+/* Footer */
 footer{
   background: url("./B13-A02-TechWave/assets/footer-bg.png");
   background-repeat: no-repeat;
@@ -92,8 +154,27 @@ footer{
   gap: 32px;
   padding: 120px 120px;
 }
-
-
+.card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 40px;
+}
+.card-info{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.card-info p{
+  color: #FAFAFA;
+}
+.copy{
+  color: #FAFAFA;
+  margin-bottom: 50px;
+}
+.tw{
+  font-size: 5rem
+}
 /* Media and Responsive */
 
 /* Small device */
