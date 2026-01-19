@@ -5,6 +5,32 @@
 body{
   margin: 0 auto;
 }
+
+/* Shared Design */
+.btn-primary{
+  padding: 12px 16px;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 19px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+}
+.wave{
+  background: linear-gradient(
+    90deg,
+    rgba(247, 233, 63, 1),
+    rgba(251, 9, 180, 1),
+    rgba(145, 0, 248, 1)
+  );
+  background-clip: text;       
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+}
+
+/* Header */
 header{
   margin: 0 auto;
   padding: 16px 200px;
@@ -16,17 +42,17 @@ header{
   justify-content: space-between;
   gap: 24px;
 }
-.main-point{
+.take-wave{
+  margin-top: 10px;
   color: #FFFFFF;
-}
-#gradient{
-  background: linear-gradient(to right, #c471ed, #f64f59, #f9d423);
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 .content{
   display: flex;
   flex-direction: row;
   gap: 32px;
-  margin-top: 35px;
+  margin-top: 30px;
 }
 .container li{
   list-style-type: none;
@@ -34,18 +60,47 @@ header{
 .container a{
   color: #FFFFFF;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1.25rem;
 }
 .btn{
   margin-top: 24px;
   margin-bottom: 24px;
-  padding: 12px 16px;
-  color: #FFFFFF;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 19px;
-  border: none;
-  cursor: pointer;
-  border-radius: 50px;
-  background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+}
+
+/* Hero */ /*
+.hero{
+  background: url("./B13-A02-TechWave/assets/hero-bg.png");
+  background-repeat: no-repeat;
+  width: auto;
+  height: 760px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer */ /*
+footer{
+  background: url("./B13-A02-TechWave/assets/footer-bg.png");
+  background-repeat: no-repeat;
+  width: auto;
+  height: 412px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 120px 120px;
+}
+
+
+/* Media and Responsive */
+
+/* Small device */
+@media screen and (max-width: 576px){
+  
+}
+/* Large device */
+@media screen and (min-width: 993px) {
+  
 }
