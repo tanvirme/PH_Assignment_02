@@ -18,6 +18,9 @@ body{
   border-radius: 50px;
   background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
 }
+.btn-primary:hover{
+  background: var(--Linear, linear-gradient(47.64deg, rgba(247, 232, 63, 0.858),rgba(251, 9, 178, 0.854),rgba(145, 0, 248, 0.822)));
+}
 .wave{
   background: linear-gradient(
     90deg,
@@ -29,11 +32,6 @@ body{
   -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent;
 }
-/*
-hr {
-  height: 1px;
-  background-color: #d3d3d3; /* ash color */
-
 
 /* Header */
 header{
@@ -88,6 +86,20 @@ header{
 .hero-circle{
   position: relative;
   top: 50px;
+}
+.green-button{
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 8px 16px;
+  border: none;
+  background-color: #00FF88;
+  border-radius: 50px;
+  
+}
+.active{
+  position: relative;
+  left: 100px;
+  top: 68px;
 }
 .hero-microphone{
   position: relative;
@@ -303,6 +315,10 @@ header{
   box-shadow: 0px 0px 8px 0px #351165;
   border-radius: 40px;
   padding: 40px;
+}
+.alex-host img{
+  width: 450px;
+  height: 170px;
 }
 .alex h2{
   font-size: 2rem;
